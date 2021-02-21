@@ -1,0 +1,1260 @@
+:root{
+    --primary:#180065;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --darkgray:#424242;
+    --bgcolor: #E5E5E5;
+}
+body{
+    position: relative;   
+}
+/*nav bar*/
+.bg-dark{
+    padding: 40px;
+}
+header{
+    background-color: var(--bgcolor);
+}
+.navbar-brand{
+    padding-left: 50px;
+    padding-right: 180px;
+    color: var(--dark);
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Avenir Next LT Pro;
+}
+.navbar-brand span{
+    color: var(--dark);
+}
+.navbar-toggle{
+    background-color: white;
+}
+.icon-bar{
+    background-color: black;
+}
+.navbar li a {
+    color: var(--ternary);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Montserrat;
+}
+.nav li.active a{
+    color: var(--primary);
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: maroon;
+    font-size: 16px;
+    text-decoration-style: solid;
+    font-weight: bold;
+    background-color: transparent;
+    margin: 5px;
+    color: var(--primary);
+}
+.sign{
+    color: var(--ternary);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: Montserrat;
+    margin-right: 50px;
+}
+.sign:hover{
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: bold;
+}
+.navbar-form{
+    margin-top: 12px;
+}
+.btn{
+    background-color: var(--primary);
+    color: var(--dark);
+    padding-left: 25px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Avenir Next LT Pro;
+    border-radius: 20px;
+    margin-right: -70px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.navform a{
+    text-decoration: none;
+    color: var(--pure);
+    animation-delay: 1s;
+    animation: 10s; 
+}
+.navform:hover{
+background-color: var(--dark);
+}
+/*intro section*/
+section h1{
+    color: var(--dark);
+    font-size: 70px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-family: Avenir Next LT Pro;
+    text-align: center;
+}
+section p{
+    color: var(--darkgray);
+    font-size: 15px;
+    padding-bottom: 20px;
+    text-align: center; 
+}
+.demo{
+    margin-left: 350px;
+    border: 1px solid var(--dark);
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 35px;
+    color: var(--dark);
+    font-size: 12px;
+    font-family: Avenir Next LT Pro;
+}
+.demo .fa{
+    padding-left: 5px;
+    font-size: 12px;
+}
+#sublink input{
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 150px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 200px;
+    margin-right: -80px;
+    margin-top:45px;
+    border:1px skyblue solid
+}
+#sublink input::placeholder{
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+.formbutton{
+    background-color: var(--primary);
+    color: var(--dark);
+    padding-left: 25px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Avenir Next LT Pro;
+    border-radius: 20px;
+    margin-right: -70px;
+}
+.formbutton a{
+    text-decoration: none;
+    color: var(--pure);
+    animation-delay: 1s;
+    animation: 10s; 
+}
+.formbutton:hover{
+    background-color: var(--dark);
+    }
+.check ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 120px;
+    padding: 25px 0 25px 10px;
+    font-size: 10px;
+    color: var(--darkgray)
+}
+.check .fa-check{
+    padding: 0;
+    color: skyblue;
+    opacity: 0.5;
+}
+.center {
+    width: 900px;
+    height: 700px;
+    margin-left:200px;
+    margin-bottom: -350px;
+}
+/*services*/
+.services {
+    background-color: #16161D;;
+    padding-top: 400px;
+}
+ ul li{
+    list-style: none;
+    padding: 10px;
+}
+.col1{
+     background: rgba(196, 196, 196, 0.05);
+     backdrop-filter: blur(100px);
+     height: 350px;
+     color: var(--pure);
+     font-family: Montserrat;
+     font-size: 30px;
+     padding: 30px;
+}
+.col2{
+    background: #45454B;
+    backdrop-filter: blur(200px);
+    height: 350px;
+    color: var(--pure);
+    font-family: Montserrat;
+    font-size: 30px;
+    padding: 30px;
+}
+.col3
+{
+    text-align: center;
+}
+.col3 h2{
+    color: var(--pure);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Montserrat;
+}
+.col3 p{
+    color: var(--pure);
+    font-size: 13px;
+    font-family: Montserrat;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.freetrailbtn{
+    background-color: orangered;
+    padding: 8px 15px 8px 15px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+}
+.freetrailbtn a{
+    color: var(--pure);
+}
+.freetrailbtn .fa-arrow-right{
+    color: var(--pure);
+    padding-left: 10px;
+}
+/*work*/
+.work h2{
+     text-align: center;
+     font-size: 50px;
+     font-family: Avenir Next LT Pro;
+     font-weight: bold;
+     padding-top: 50px;
+     color: var(--dark);
+}
+.work .img-responsive{
+     max-width: 300px;
+     width: 100%;
+     height: auto;
+     filter: grayscale(100%);
+}
+/*remote*/
+.remote{
+    text-align: center;
+    background-color: var(--bgcolor);
+}
+.remote h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: Avenir Next LT Pro;
+    font-weight: bold;
+    padding: 40px;
+    color: var(--dark);
+}
+.remote p{
+    font-size: 15px;
+    padding: 0 80px 0 80px;
+    font-family: Montserrat;
+    color: var(--darkgray);
+}
+/*section1*/
+.section1{
+    background-color: var(--bgcolor);
+}
+.section1 h2{
+    font-size: 23px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: bold;
+    padding-top: 130px;
+    padding-bottom:15px;
+    font-family: Avenir Next LT Pro;
+    color: var(--dark);
+}
+.section1 p{
+    font-size: 15px;
+    float: left;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Montserrat;
+    color: var(--darkgray);
+}
+.section1 .img-responsive{
+    width: 450px;
+    height: 500px;
+    padding-top: 70px;
+}
+/*section2*/
+.section2{
+    text-align: center;
+    padding: 40px;
+    background-color: var(--bgcolor);
+}
+.section2 h2{
+    font-size: 50px;
+    font-family: Avenir Next LT Pro;
+    color: var(--dark);
+    font-weight: bold;
+}
+.section2 p{
+    font-size: 12px;
+    padding: 20px 90px 0 90px;
+    font-family: Montserrat;
+    color: var(--darkgray);
+}
+/*info*/
+.info h2{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Avenir Next LT Pro;
+    color: var(--dark);
+    padding-bottom: 20px;
+}
+.info .carousel p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: Montserrat;
+    color: var(--darkgray);
+}
+.info .carousel-indicators li.active{
+    background-color: var(--dark);
+    opacity: 0.8;
+    margin-top: 30px;
+    padding-left:15px;
+    padding-right: 15px;
+    height: 6px;
+}
+.info .carousel-indicators li{
+    background-color: var(--ternary);
+    opacity: 0.8;
+    padding-left:15px;
+    padding-right: 15px;
+    height: 6px;
+}
+/*info1*/
+.info1 p{
+    font-size: 15px;
+    text-align: center;
+    font-family: Montserrat;
+    color: var(--darkgray);
+}
+/*testimonial*/
+.testimonial{
+    background-color: var(--primary);
+    height: 350px;
+    margin-top: 30px;
+}
+.testimonial .carousel p{
+    color: var(--pure);
+    font-size: 25px;
+    margin-top: 80px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+.carousel p small span{
+    font-size: 12px;
+    color: var(--ternary);
+    font-style: italic;
+}
+.testimonial .carousel-indicators li.active{
+    background-color: var(--pure);
+    margin-top: 15px;
+}
+.testimonial .carousel-indicators li{
+    background-color: var(--ternary); 
+}
+.testimonial .carousel small{
+    font-size: 15px;
+}
+/*trail*/
+.trail{
+    background-image: url(../image/bgimage.png);
+    position: relative;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.trail h2{
+    font-size: 35px;
+    color: var(--pure);
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: Avenir Next LT Pro;
+}
+.trail .freetrailbtn{
+    text-align: center;
+    border-radius: 40px;
+    margin-left: 350px;
+    padding: 18px 25px 18px 20px;
+    margin-bottom: 30px;
+    background-color: var(--primary);
+    border: none;
+}
+.trail .freetrailbtn a{
+    font-family: Avenir Next LT Pro;
+    color: var(--pure);
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.trail-check ul li{
+    display: inline-block;
+    color: var(--pure);
+    font-size: 15px;
+    font-family: Avenir Next LT Pro;
+    padding: 0px;
+}
+.trail-check .fa-check{
+    color: var(--pure);
+}
+/*pricing card*/
+.pricingcard{
+    background-color: var(--bgcolor);
+    padding-bottom: 30px;
+}
+.pricingcard h2{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 45px;
+    color: var(--dark);
+    font-weight: bold;
+    font-family: Montserrat;
+}
+.pricingcard h3{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+.month{
+    color: #ED7A39;
+    text-decoration-color: #ED7A39;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style: solid;
+    font-weight: bold;
+    font-family: Avenir Next LT Pro;
+}
+ .year{
+    color: #909090;
+    text-decoration-color: #909090;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style: solid;
+    font-weight: bold;
+}
+.plan{
+    background-color: var(--pure);
+    padding-bottom: 25px;
+    margin: 0 -12px 0 -12px;
+}
+.plandetail{
+    text-align: center;
+}
+.plandetail h4{
+    padding-top: 25px;
+    color: var(--darkgray);
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: Montserrat;
+}
+.plandetail .price span{
+    color: #ED7A39;
+    font-size: 25px; 
+}
+
+.plandetail .price{
+    color: var(--dark);
+    font-size: 25px;
+}
+.plandetail h5{
+    font-size: Montserrat;
+    font-weight: bolder;
+}
+.plandetail .content{
+    padding: 10px;
+    color: var(--dark);
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family:  Avenir Next LT Pro;
+}
+.access{
+   display: inline;
+   float: left;
+   width: 100%;
+   padding: 0 15px;
+}
+.access ul li{
+    border-bottom: 1px solid #fff;
+    padding: 10px 10px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.access ul li:last-child{
+    border: none;
+}
+.fa-times{
+    padding: 0px 20px;
+    color: red;
+}
+.fa-check{
+    color: green;
+    padding: 0px 20px;
+}
+.selectbtn{
+    text-align: center;
+}
+.selectbtn .planbtn{
+    background-color: var(--primary);
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    color: var(--pure);
+    text-transform: capitalize;
+    font-size: 15px;
+    border: none;
+}
+.plan1{
+    background-color: var(--pure);
+    padding-bottom: 25px;
+    margin: 0 -12px 0 -12px;
+    border: 1px solid #3FC1E8;
+}
+.plan2{
+    background-color: var(--pure);
+    padding-bottom: 25px;
+    margin: 0 -12px 0 -12px;
+    border: 1px solid #ED7A39;;    
+}
+.tag h4{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #3FC1E8;
+    margin-bottom: -5px;
+    margin-left:  -11px;
+    margin-right:  -11px;
+    padding: 15px;
+    color: var(--pure);
+}
+.tag1 h4{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ED7A39;;
+    padding: 13px;
+    margin-bottom: -1px;
+    margin-left:  -11px;
+    margin-right:  -11px;
+    color: var(--pure);
+    opacity: 0.7;
+}
+.unmark{
+    margin-top: 56px;
+}
+.planbtn .fa{
+    padding: 5px;
+    color: var(--pure);
+}
+/*contact*/
+.contact{
+    padding: 35px 80px 80px 80px;
+    text-align: center;
+}
+.contact h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: var(--dark);
+    word-spacing: 5px;
+    font-size: 
+    Montserrat;
+}
+.contactbutton{
+    background-color: #F35335;;
+    border: none;
+    padding: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.contactbutton a{
+    color: var(--pure);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 
+    Avenir Next LT Pro;
+}
+/*query*/
+.query{
+    text-align: center;
+    background-color: #F8FAFB;
+}
+.query h2{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 
+    Avenir Next LT Pro;
+    color:#041540;
+    ;
+}
+
+.query .panel{
+    margin-top: 45px;
+    text-align: justify;
+    border-bottom: 2px solid var(--ternary);
+}
+.query .panel-title{
+    color: #041540;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Avenir Next LT Pro;
+}
+.query .panel-title a{
+    text-decoration: none;
+}
+.query .panel-title span{
+    float: right;
+}
+/*contactinfo*/
+.contactinfo{
+    margin: 50px;
+}
+.contactdetail h3{
+    color: var(--dark);
+    font-size: 35px;
+    font-weight: bold; 
+    padding-bottom: 20px; 
+    padding-top: 45px;
+    font-family: Avenir Next LT Pro;
+}
+.contactdetail p{
+    font-size: 17px;
+    padding: 10px 0;
+    font-family: Montserrat;
+    color: var(--darkgray);
+}
+.contactdetail .fa{
+    padding-right: 20px;
+}
+.contactfrom input{
+    border: none;
+    border-bottom: 1px solid var(--ternary);
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    max-width: 220px;
+    width: 100%;
+    padding-top: 45px;
+    font-family: Montserrat;
+    color: var(--darkgray);
+}
+.contactfrom select{
+    border: none;
+    border-bottom: 1px solid var(--ternary);
+    font-size: 20px;
+    padding: 10px;
+    max-width: 460px;
+    width: 100%;
+    padding-top: 45px;
+    font-family: Montserrat;
+    color: var(--darkgray);
+}
+.contactfrom textarea{
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 45px;
+    max-width: 460px;
+    width: 100%;
+    font-family: Montserrat;
+    color: var(--darkgray);
+}
+.contactfrom h6{
+    font-size: 10px;
+    padding: 10px;
+    padding-left: 60px;
+    font-family: Avenir Next LT Pro;
+    color: var(--darkgray);
+}
+.sendbtn{
+    background-color: var(--primary);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 60px;
+    color: var(--pure);
+    text-align: center;
+    margin-left: 150px;
+}
+.sendbtn span{
+    color: var(--pure);
+    padding-left: 25px;
+}
+/*footer*/
+footer{
+   background-color: var(--dark);
+  color: var(--pure);  
+  padding: 50px;
+}
+.footerinfo{
+    padding-left: 50px;
+}
+.footerinfo p{
+    font-size: 14px;
+    color: var(--pure);
+    opacity: 0.8;
+}
+.footerinfo1 ul li{
+    list-style: none;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    font-size: 13px;
+    font-weight: bolder; 
+    }   
+.footerinfo1 h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: bold;
+    }
+.footerinfo2 ul li{
+    list-style: none;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    font-size: 13px; 
+    }
+.footerinfo2 h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: bold;
+    }
+footer .fa{
+    float: right;
+    color: var(--pure);
+    padding: 20px;
+    font-size: 35px;
+    padding-right: 40px;
+}
+.copyright ul li{
+    display: inline-block;
+    padding: 20px;  
+    font-size: 15px;
+}
+/*end*/
+
+ @media only screen and (max-width: 768px){
+    .bg-dark{
+        padding: 10px;
+        padding-top: 20px;
+        }
+    .navbar-brand{
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+    .navbar ul li{
+    padding: 5px;
+        }
+    .navbar li a {
+        font-size: 13px;
+               }
+    .navbar li a:hover{
+         font-size: 14px;
+        }    
+    section h1{   
+        font-size: 50px;
+          }
+    .demo{
+         margin-left: 300px;
+        }
+                        
+    #sublink input{
+        margin-left: 180px;
+        padding-right: 80px;
+        margin-right: -80px;
+        }                
+    .check ul li{
+        margin: 0 55px 0 55px;                        
+    }                        
+    .center {
+        margin: 5px;
+        height: 500px;
+        margin-bottom: -260px;
+        width: 725px;
+        }
+    .services{
+        background-color: var(--dark);
+        padding-top: 300px;
+            }
+    .col3{
+         padding-bottom: 25px;
+            }
+    .work .img-responsive {
+        margin-left: 210px;
+        padding-top: 10px;
+            }                           
+    .testimonial{
+        padding-left: 20px;
+                }
+    .trail .freetrailbtn{
+        margin-left: 250px;     
+                }
+    .trail-check ul li{
+        font-size: 12px;
+            }
+    .trail{
+        height: 380px;
+        }
+    .tag h4{
+        margin-top: 45px;
+        }
+    .tag1 h4{
+        margin-top: 45px;
+         }
+    .access ul li{
+        margin-left: 200px;
+        }
+    .unmark{
+        margin-top: 35px;
+         }
+    .contactinfo{
+        margin-left: 120px;
+        }
+    .contactinfo h3{
+        font-size: 30px;
+        }
+    .contactfrom input {
+        max-width: 430px;
+        }
+    .contactfrom h6{
+        padding-left: 100px;
+        }
+    .sendbtn{
+        margin-left: 150px;
+        }
+    footer h2{
+        text-align: center;
+        }
+    footer p{
+        padding: 15px 0 0 10px;
+        font-size: 25px;
+        }
+    .footerinfo1 ul li{
+        padding-left: 20px ;
+        }
+    .footerinfo2{
+        padding-left: 0px ;
+        }
+    footer .fa{                            
+        padding: 70px;
+        font-size: 25px;                            
+        }  
+    .copyright ul li{
+        padding: 15px;  
+        padding-left: 25px;
+        font-size: 25px;
+        }     
+}
+/*width 480 px*/
+@media only screen and (max-width:480px){
+              
+    section h1{
+        font-size: 30px;
+        padding-right: 10px;
+            }
+    section p{
+        padding-left: 0px;
+        font-size: 10px;
+        }
+    .demo{
+        margin-left: 150px;
+        }
+    #sublink input{
+        margin-left: 55px;
+        padding-left: 10px;
+        padding-right: 50px ;    
+        }
+    #sublink input::placeholder{
+        font-size: 13px;
+        }
+    .contact-link{
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+    .check ul li{
+        padding: 5px 18px 5px 18px;
+        margin: 0;
+        font-size: 9px; 
+        }
+    .center {
+        margin: 5px;
+        height: 300px;
+        margin-bottom: -150px;
+        width: 435px;
+    }                                                       
+    .services{
+        background-color: var(--dark);
+        padding-top: 170px;
+    }                            
+    .col3{
+        padding-bottom: 15px;
+    }
+     .col3 h2{
+         font-size: 25px;
+     }   
+     .col3 p{
+         padding: 0;
+     }  
+     .work h2{
+         font-size: 30px;
+     }
+     .work .img-responsive {
+        margin-left: 150px;
+        padding-top: 10px;
+        width: 150px;
+    }                                
+    .remote h2{
+        font-size: 25px;
+        padding: 20px;
+        }
+        
+        .remote p{
+            font-size: 15px;
+            padding: 0;
+        }
+        .section1 h2{
+            padding-top: 30px;
+            font-size: 25px;
+            padding-left: 26px;
+            padding-right: 26px;
+        }
+        .section1 p{
+            font-size: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .section2 h2{
+            font-size: 25px;
+        }
+        .section2 p{
+            padding: 0px;
+            font-size: 15px;
+        }                            
+        .info h2{
+            font-size: 25px;
+        }
+        .info .carousel p{
+            font-size: 15px;
+        }
+        .info1 p{
+            font-size: 15px;
+        }
+        .testimonial{
+            height: 300px;
+        }
+        .testimonial .carousel p{
+            font-size: 15px;
+        }
+        .testimonial{
+            padding-left: 20px;
+        }                        
+        .trail h2{
+            font-size: 25px;
+        }
+        .trail .freetrailbtn{
+            margin-left: 130px;
+            padding: 10px 12px 10px 10px;
+        }
+        .trail-check ul li {
+           font-size: 15px;
+        }
+        .trail{
+            height: 450px;
+        }
+        .pricingcard h2{
+            font-size: 25px;
+        }
+        .unmark{
+            margin-top: 0px;
+        }
+        .access ul li{
+            margin-left: 65px;
+        }
+        .contact{
+            padding: 20px;
+            margin-right: 0px;
+        }
+        .contact h3{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .contactbutton{
+            padding: 10px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            margin-left: 0px;
+            margin-right: 25px;
+            margin-top: 5px;
+        }
+        .contactbutton a{
+            font-size: 15px;
+        }
+        .query h2{
+            font-size: 40px;
+        }
+        .contactinfo h3{
+            font-size: 22px;
+        }
+        .contactfrom h6{
+            font-size: 8px;
+            padding-left: 30px;
+        }
+        .contactfrom input{
+            max-width: 300px;
+            width: 100%;
+        }   
+        .sendbtn{
+            padding: 8px 20px;
+            margin-left: 110px;
+        }
+        footer h2{
+            text-align: center;
+        }
+        footer p{
+            padding: 10px 0 0 15px;
+        }
+        .footerinfo{
+            padding-left: 0px;
+        }
+        .footerinfo1 ul li{
+            padding-left: 10px;
+            }
+        .footerinfo2 ul li{
+            padding-left: 0px;
+            }
+        footer .fa{    
+            padding: 30px;
+            font-size: 25px; 
+                }  
+        .copyright ul li{
+            padding: 15px;  
+            padding-left: 25px;
+            font-size: 15px;
+                }     
+}                     
+/*width 359*/   
+ @media only screen and (max-width:359px){
+        .navbar-brand{
+            padding-left: 0px;
+            padding-right: 0px;
+            font-size: 18px;
+            }
+            section h1{
+                font-size: 20px;
+                padding-right: 10px;
+            }
+            section p{
+                padding-right: 0px;
+                font-size: 10px;
+            }
+            .demo{
+                margin-left: 90px;
+            }
+            #sublink input{
+                margin-left: 40px;
+                padding-left: 10px;
+                padding-right: 10px ;    
+            }
+            #sublink input::placeholder{
+                font-size: 10px;
+            }
+            .contact-link{
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .formbutton{
+                padding-right: 20px;
+            }
+            .check ul li{
+                padding: 5px 0px 5px 0px;
+                margin: 0;
+                font-size: 9px; 
+                  }
+            .center {
+                margin: 5px;
+                height: 300px;
+                margin-bottom: -150px;
+                width: 320px;
+                }
+            .services{
+                background-color: var(--dark);
+                padding-top: 170px;
+                }
+            .col3{
+                padding-bottom: 20px;
+                }
+            .col3 h2{
+                font-size: 25px;
+                 }   
+            .col3 p{
+                padding: 0;
+                 }  
+            .work h2{
+                font-size: 30px;
+                 }
+            .work .img-responsive {
+                margin-left: 80px;
+                padding-top: 10px;
+                width: 150px;
+                }    
+            .remote h2{
+                font-size: 25px;
+                padding: 20px;
+                }    
+            .remote p{
+                font-size: 15px;
+                padding: 0;
+                }
+            .section1 h2{
+                padding-top: 30px;
+                font-size: 25px;
+                padding-left: 26px;
+                padding-right: 26px;
+                }
+            .section1 p{
+                font-size: 15px;
+                padding-left: 20px;
+                padding-right: 20px;
+                }
+            .section2 h2{
+                font-size: 25px;
+                }
+            .section2 p{
+                padding: 0px;
+                font-size: 15px;
+                }
+            .info h2{
+                font-size: 25px;
+                }
+            .info .carousel p{
+                font-size: 15px;
+                }
+            .info1 p{
+                font-size: 15px;
+                }
+            .testimonial{
+                height: 300px;
+                }
+            .testimonial .carousel p{
+                font-size: 15px;
+                }
+            .trail h2{
+                font-size: 25px;
+                }
+            .trail .freetrailbtn{
+                margin-left: 55px;
+                padding: 10px 12px 10px 10px;
+                }
+            .trail-check ul li {
+                font-size: 19px;
+                }
+            .trail{
+                height: 450px;
+                }
+            .pricingcard h2{
+                font-size: 25px;
+                }
+            .unmark{
+                margin-top: 0px;
+                }
+            .access ul li{
+                margin-left: 25px;
+                }
+            .contact{
+                padding: 20px;
+                margin-right: 0px;
+                }
+            .contact h3{
+                font-size: 20px;
+                font-weight: bold;
+                }
+            .contactbutton{
+                padding: 10px;
+                padding-top: 5px;
+                padding-bottom: 10px;
+                margin-left: 0px;
+                margin-right: 25px;
+                margin-top: 5px;
+                }
+            .contactbutton a{
+                font-size: 15px;
+                }
+            .query h2{
+                font-size: 40px;
+                }
+            .contactinfo{
+                margin: 20px;
+                }
+            .contactfrom h6{
+                font-size: 8px;
+                padding-left: 30px;
+                }
+            .sendbtn{
+                padding: 8px 20px;
+                margin-left: 80px;
+                }
+            footer{
+                padding-left: 20px;
+                 }
+            footer h2{
+                text-align: center;
+                }
+            footer p{
+                margin-left: 20px;
+                }
+            .footerinfo1 ul li {
+                padding-left:0px;
+                    }
+            .footerinfo2 ul li{
+                padding-left: 0px;
+                    }
+            footer .fa{
+                padding: 20px;
+                font-size: 25px;
+                        }  
+            .copyright ul li{
+                padding: 15px;  
+                padding-left: 25px;
+                font-size: 15px;
+                        }     
+}                                                                   
+                                        
