@@ -839,9 +839,15 @@ footer .fa{
     .access ul li{
         margin-left: 200px;
         }
+    .mark1{
+        margin-top: -40px;
+        }
+    .mark2{
+        margin-top: -40px;
+        }
     .unmark{
-        margin-top: 35px;
-         }
+        margin-top: -3px;
+        }
     .contactinfo{
         margin-left: 120px;
         }
@@ -926,16 +932,16 @@ footer .fa{
     .col3{
         padding-bottom: 15px;
     }
-     .col3 h2{
-         font-size: 25px;
+    .col3 h2{
+        font-size: 25px;
      }   
-     .col3 p{
-         padding: 0;
+    .col3 p{
+        padding: 0;
      }  
-     .work h2{
-         font-size: 30px;
+    .work h2{
+        font-size: 30px;
      }
-     .work .img-responsive {
+    .work .img-responsive {
         margin-left: 150px;
         padding-top: 10px;
         width: 150px;
@@ -944,317 +950,331 @@ footer .fa{
         font-size: 25px;
         padding: 20px;
         }
-        
-        .remote p{
-            font-size: 15px;
-            padding: 0;
+    .remote p{
+        font-size: 15px;
+        padding: 0;
         }
-        .section1 h2{
-            padding-top: 30px;
-            font-size: 25px;
-            padding-left: 26px;
-            padding-right: 26px;
+    .section1 h2{
+        padding-top: 30px;
+        font-size: 25px;
+        padding-left: 26px;
+        padding-right: 26px;
         }
-        .section1 p{
-            font-size: 15px;
-            padding-left: 20px;
-            padding-right: 20px;
+    .section1 p{
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
         }
-        .section2 h2{
-            font-size: 25px;
+    .section2 h2{
+        font-size: 25px;
         }
-        .section2 p{
-            padding: 0px;
-            font-size: 15px;
+    .section2 p{
+        padding: 0px;
+        font-size: 15px;
         }                            
-        .info h2{
-            font-size: 25px;
+    .info h2{
+        font-size: 25px;
         }
-        .info .carousel p{
-            font-size: 15px;
+    .info .carousel p{
+        font-size: 15px;
         }
-        .info1 p{
-            font-size: 15px;
+    .info1 p{
+        font-size: 15px;
         }
-        .testimonial{
-            height: 300px;
+    .testimonial{
+        height: 300px;
         }
-        .testimonial .carousel p{
-            font-size: 15px;
+    .testimonial .carousel p{
+        font-size: 15px;
         }
-        .testimonial{
-            padding-left: 20px;
+    .testimonial{
+        padding-left: 20px;
         }                        
-        .trail h2{
-            font-size: 25px;
+    .trail h2{
+        font-size: 25px;
         }
-        .trail .freetrailbtn{
-            margin-left: 130px;
-            padding: 10px 12px 10px 10px;
+    .trail .freetrailbtn{
+        margin-left: 130px;
+        padding: 10px 12px 10px 10px;
         }
-        .trail-check ul li {
-           font-size: 15px;
+    .trail-check ul li {
+        font-size: 15px;
         }
-        .trail{
-            height: 450px;
+    .trail{
+        height: 450px;
         }
-        .pricingcard h2{
-            font-size: 25px;
+    .pricingcard h2{
+        font-size: 25px;
         }
-        .unmark{
-            margin-top: 0px;
+    .mark1{
+        margin-top: -40px;
         }
-        .access ul li{
-            margin-left: 65px;
+    .mark2{
+        margin-top: -40px;
         }
-        .contact{
-            padding: 20px;
-            margin-right: 0px;
+    .unmark{
+        margin-top: -3px;
         }
-        .contact h3{
-            font-size: 20px;
-            font-weight: bold;
+    .access ul li{
+        margin-left: 65px;
         }
-        .contactbutton{
-            padding: 10px;
-            padding-top: 5px;
-            padding-bottom: 10px;
-            margin-left: 0px;
-            margin-right: 25px;
-            margin-top: 5px;
+    .contact{
+        padding: 20px;
+        margin-right: 0px;
         }
-        .contactbutton a{
-            font-size: 15px;
+    .contact h3{
+        font-size: 20px;
+        font-weight: bold;
         }
-        .query h2{
-            font-size: 40px;
+    .contactbutton{
+        padding: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 25px;
+        margin-top: 5px;
         }
-        .contactinfo h3{
-            font-size: 22px;
+    .contactbutton a{
+        font-size: 15px;
         }
-        .contactfrom h6{
-            font-size: 8px;
-            padding-left: 30px;
+    .query h2{
+        font-size: 40px;
         }
-        .contactfrom input{
-            max-width: 300px;
-            width: 100%;
+    .contactinfo{
+        margin-left: 80px;
+    }
+    .contactinfo h3{
+        font-size: 22px;
+        }
+    .contactfrom h6{
+        font-size: 8px;
+        padding-left: 30px;
+        }
+    .contactfrom input{
+        max-width: 300px;
+        width: 100%;
         }   
-        .sendbtn{
-            padding: 8px 20px;
-            margin-left: 110px;
+    .sendbtn{
+        padding: 8px 20px;
+        margin-left: 90px;
         }
-        footer h2{
-            text-align: center;
+    footer h2{
+        text-align: center;
         }
-        footer p{
-            padding: 10px 0 0 15px;
+    footer p{
+        padding: 10px 0 0 15px;
         }
-        .footerinfo{
-            padding-left: 0px;
+    .footerinfo{
+        padding-left: 0px;
         }
-        .footerinfo1 ul li{
-            padding-left: 10px;
-            }
-        .footerinfo2 ul li{
-            padding-left: 0px;
-            }
-        footer .fa{    
-            padding: 30px;
-            font-size: 25px; 
-                }  
-        .copyright ul li{
-            padding: 15px;  
-            padding-left: 25px;
-            font-size: 15px;
-                }     
+    .footerinfo1 ul li{
+        padding-left: 10px;
+        }
+    .footerinfo2 ul li{
+        padding-left: 0px;
+        }
+    footer .fa{    
+        padding: 33px;
+        font-size: 25px; 
+        }  
+    .copyright ul li{
+        padding: 15px;  
+        padding-left: 15px;
+        font-size: 12px;
+        }     
 }                     
 /*width 359*/   
  @media only screen and (max-width:359px){
-        .navbar-brand{
-            padding-left: 0px;
-            padding-right: 0px;
-            font-size: 18px;
+    .navbar-brand{
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 18px;
+        }
+    section h1{
+        font-size: 20px;
+        padding-right: 10px;
+        }
+    section p{
+        padding-right: 0px;
+        font-size: 10px;
+        }
+    .demo{
+        margin-left: 90px;
+        }
+    #sublink input{
+        margin-left: 40px;
+        padding-left: 10px;
+        padding-right: 10px ;    
+        }
+    #sublink input::placeholder{
+        font-size: 10px;
+        }
+    .contact-link{
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+    .formbutton{
+        padding-right: 20px;
+        }
+    .check ul li{
+        padding: 5px 0px 5px 0px;
+        margin: 0;
+        font-size: 9px; 
+              }
+    .center {
+        margin: 5px;
+        height: 300px;
+        margin-bottom: -150px;
+        width: 320px;
             }
-            section h1{
-                font-size: 20px;
-                padding-right: 10px;
+    .services{
+        background-color: var(--dark);
+        padding-top: 170px;
             }
-            section p{
-                padding-right: 0px;
-                font-size: 10px;
+    .col3{
+        padding-bottom: 20px;
             }
-            .demo{
-                margin-left: 90px;
+    .col3 h2{
+        font-size: 25px;
+          }   
+    .col3 p{
+        padding: 0;
+        }  
+    .work h2{
+        font-size: 30px;
+        }
+    .work .img-responsive {
+        margin-left: 80px;
+        padding-top: 10px;
+        width: 150px;
+            }    
+    .remote h2{
+        font-size: 25px;
+        padding: 20px;
+            }    
+    .remote p{
+        font-size: 15px;
+        padding: 0;
             }
-            #sublink input{
-                margin-left: 40px;
-                padding-left: 10px;
-                padding-right: 10px ;    
+    .section1 h2{
+        padding-top: 30px;
+        font-size: 25px;
+        padding-left: 26px;
+        padding-right: 26px;
             }
-            #sublink input::placeholder{
-                font-size: 10px;
+    .section1 p{
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
             }
-            .contact-link{
-                padding-left: 8px;
-                padding-right: 8px;
-                padding-top: 10px;
-                padding-bottom: 10px;
+    .section2 h2{
+        font-size: 25px;
             }
-            .formbutton{
-                padding-right: 20px;
+    .section2 p{
+        padding: 0px;
+        font-size: 15px;
             }
-            .check ul li{
-                padding: 5px 0px 5px 0px;
-                margin: 0;
-                font-size: 9px; 
-                  }
-            .center {
-                margin: 5px;
-                height: 300px;
-                margin-bottom: -150px;
-                width: 320px;
-                }
-            .services{
-                background-color: var(--dark);
-                padding-top: 170px;
-                }
-            .col3{
-                padding-bottom: 20px;
-                }
-            .col3 h2{
-                font-size: 25px;
-                 }   
-            .col3 p{
-                padding: 0;
-                 }  
-            .work h2{
-                font-size: 30px;
-                 }
-            .work .img-responsive {
-                margin-left: 80px;
-                padding-top: 10px;
-                width: 150px;
-                }    
-            .remote h2{
-                font-size: 25px;
-                padding: 20px;
-                }    
-            .remote p{
-                font-size: 15px;
-                padding: 0;
-                }
-            .section1 h2{
-                padding-top: 30px;
-                font-size: 25px;
-                padding-left: 26px;
-                padding-right: 26px;
-                }
-            .section1 p{
-                font-size: 15px;
-                padding-left: 20px;
-                padding-right: 20px;
-                }
-            .section2 h2{
-                font-size: 25px;
-                }
-            .section2 p{
-                padding: 0px;
-                font-size: 15px;
-                }
-            .info h2{
-                font-size: 25px;
-                }
-            .info .carousel p{
-                font-size: 15px;
-                }
-            .info1 p{
-                font-size: 15px;
-                }
-            .testimonial{
-                height: 300px;
-                }
-            .testimonial .carousel p{
-                font-size: 15px;
-                }
-            .trail h2{
-                font-size: 25px;
-                }
-            .trail .freetrailbtn{
-                margin-left: 55px;
-                padding: 10px 12px 10px 10px;
-                }
-            .trail-check ul li {
-                font-size: 19px;
-                }
-            .trail{
-                height: 450px;
-                }
-            .pricingcard h2{
-                font-size: 25px;
-                }
-            .unmark{
-                margin-top: 0px;
-                }
-            .access ul li{
-                margin-left: 25px;
-                }
-            .contact{
-                padding: 20px;
-                margin-right: 0px;
-                }
-            .contact h3{
-                font-size: 20px;
-                font-weight: bold;
-                }
-            .contactbutton{
-                padding: 10px;
-                padding-top: 5px;
-                padding-bottom: 10px;
-                margin-left: 0px;
-                margin-right: 25px;
-                margin-top: 5px;
-                }
-            .contactbutton a{
-                font-size: 15px;
-                }
-            .query h2{
-                font-size: 40px;
-                }
-            .contactinfo{
-                margin: 20px;
-                }
-            .contactfrom h6{
-                font-size: 8px;
-                padding-left: 30px;
-                }
-            .sendbtn{
-                padding: 8px 20px;
-                margin-left: 80px;
-                }
-            footer{
-                padding-left: 20px;
-                 }
-            footer h2{
-                text-align: center;
-                }
-            footer p{
-                margin-left: 20px;
-                }
-            .footerinfo1 ul li {
-                padding-left:0px;
-                    }
-            .footerinfo2 ul li{
-                padding-left: 0px;
-                    }
-            footer .fa{
-                padding: 20px;
-                font-size: 25px;
-                        }  
-            .copyright ul li{
-                padding: 15px;  
-                padding-left: 25px;
-                font-size: 15px;
-                        }     
+    .info h2{
+        font-size: 25px;
+            }
+    .info .carousel p{
+        font-size: 15px;
+            }
+    .info1 p{
+        font-size: 15px;
+            }
+    .testimonial{
+        height: 300px;
+            }
+    .testimonial .carousel p{
+        font-size: 15px;
+        }
+    .trail h2{
+        font-size: 25px;
+         }
+    .trail .freetrailbtn{
+        margin-left: 55px;
+        padding: 10px 12px 10px 10px;
+            }
+    .trail-check ul li {
+        font-size: 19px;
+            }
+    .trail{
+        height: 450px;
+            }
+    .pricingcard h2{
+        font-size: 25px;
+            }
+    .mark1{
+        margin-top: -40px;
+            }
+    .mark2{
+        margin-top: -40px;
+            }
+    .unmark{
+        margin-top: -3px;
+            }
+    .access ul li{
+        margin-left: 25px;
+            }
+    .contact{
+        padding: 20px;
+        margin-right: 0px;
+            }
+    .contact h3{
+        font-size: 20px;
+        font-weight: bold;
+            }
+    .contactbutton{
+        padding: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 25px;
+        margin-top: 5px;
+            }
+    .contactbutton a{
+        font-size: 15px;
+        }
+    .query h2{
+        font-size: 40px;
+            }
+    .contactinfo{
+        margin: 20px;
+            }
+    .contactfrom h6{
+        font-size: 8px;
+        padding-left: 30px;
+            }
+    .sendbtn{
+        padding: 8px 20px;
+        margin-left: 80px;
+            }
+    footer{
+        padding-left: 20px;
+             }
+    footer h2{
+        text-align: center;
+            }
+    footer p{
+        margin-left: 20px;
+            }
+    .footerinfo1 ul li {
+        padding-left:0px;
+            }
+    .footerinfo2 ul li{
+        padding-left: 0px;
+            }
+    footer .fa{
+        padding: 20px;
+        font-size: 25px;
+             }  
+    .copyright ul li{
+            padding: 0px;  
+            padding-left: 20px;
+            font-size: 10px;
+              }     
 }                                                                   
-                                        
+                                       
